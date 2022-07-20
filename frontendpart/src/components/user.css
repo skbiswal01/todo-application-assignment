@@ -1,0 +1,58 @@
+h1 {
+    color: teal;
+    font-size: 40px;
+    font-style: italic;
+}
+
+form {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    margin: 5% auto;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid teal;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+}
+
+table {
+    margin: auto;
+    width: 40%;
+    border: 2px double black;
+}
+
+td {
+    background-color: teal;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.single-todo {
+    border: 1px solid teal;
+    background-color: black;
+    color: teal;
+}
+p{
+    font-size: 18px;
+}
+
+.button> button{
+    margin: 0px 0px 5px 10px;
+    padding: 7px;
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
